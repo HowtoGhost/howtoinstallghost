@@ -1,0 +1,81 @@
+{{!< default}}
+
+{{! The comment above "< default" means - insert everything in this file into
+    the {body} of the default.hbs template, which contains our header/footer. }}
+
+{{! The big featured header on the homepage, with the site logo and description }}
+<header class="main-head" {{#if @blog.cover}}style="background-image: url({{@blog.cover}})"{{/if}}>
+    <div class="vertical">
+        <div class="site-head-content inner">
+            {{#if @blog.logo}}<a class="blog-logo" href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="Blog Logo" /></a>{{/if}}
+            <h1 class="blog-title">{{@blog.title}}</h1>
+            <h2 class="blog-description">{{@blog.description}}</h2>
+        </div>
+    </div>
+
+</header>
+
+{{! The main content area on the homepage }}
+<main class="content" role="main">
+    
+     <div class="row front-header">
+        <div class="arrow-down-1"></div>
+        <div class="recommend-text">
+            <h1 class="home-headers">Recommended Ghost Installation Platform</h1>
+        </div>
+        <div class="col-sm-4">
+            <a href="/how-to-install-ghost-on-ghost-org">
+                <img class="img-circle img-responsive text-center" src="assets/images/ghost.png">
+                <h3 class="header-text">Ghost(Pro) ($5/mo)</h3>
+            </a>
+            <p class="header-desc">Complete managed hosting. Only worry about blogging, not server maintenance</p>
+        </div>
+        <div class="col-sm-4">
+            <a href="/how-to-install-ghost-on-digital-ocean-vps">
+                <img class="img-circle img-responsive" src="assets/images/DO.png">
+                <h3 class="header-text">DigitalOcean ($5/mo)</h3>
+            </a>
+            <p class="header-desc">Full file system access allowing maximum flexibility and customization. (Who we use)</p>
+        </div>
+        <div class="col-sm-4">
+            <a href="/how-to-setup-an-amazon-ec2-instance-to-host-ghost-for-free">
+                <img class="img-circle img-responsive" src="assets/images/AWS.png">
+                <h3 class="header-text">Amazon (Free first year)</h3>
+            </a>
+            <p class="header-desc">Full VPS access with large scalability and a free first year to check out Ghost</p>
+        </div>
+    </div>
+
+    <div class="main_install">
+        <div class="container">
+            <div class="arrow-down-2"></div>
+        	<h1 class="home-headers">Installing Ghost</h1>
+        	<p class="main_install_text">The providers listed above are our recommended places to host your Ghost blog. We have extensive experience with each of them and highly recommend each of them. We currently host all of our sites on DigitalOcean. If you need help decide which one you should use, check out this post we created detailing the differences of each and who should choice which hosting provider.<br><br>
+
+            While we do recommend these three options, we have also created guides on over 20 other hosting providers as well as all the major operating systems that you can check out as well. If you have a hosting provider that you like, we have most likely created a guide for them. <br><br>
+
+            Check out the other options here. One-Click means that the install process is automated for you. VPS/Manual means that you will be getting a VPS and installing Ghost yourself, and OS shows how to install Ghost on each of the different operating systems.
+        	<br><br></p>
+    		<div class="col-sm-4 install_button_div">
+    			<a href="/one-click"><button class="main_install_buttons">One-Click Installs</button></a>
+    		</div>
+    		<div class="col-sm-4 install_button_div">
+    			<a href="/vps-manual"><button class="main_install_buttons">VPS/Manual Installs</button></a>
+    		</div>
+    		<div class="col-sm-4 install_button_div">
+    			<a href="/operating-systems"><button class="main_install_buttons">OS Installs</button></a>
+    		</div>
+        </div>
+	</div>
+    <div class="main_after_install container">
+        <div class="arrow-down-3"></div>
+		<h1 class="home-headers">After Installation Steps</h1>
+        <p class="main_after_install_text">While this site only details how to install Ghost, we have created multiple resources to help you after you have installed. If you are new to Ghost, check out <a href="http://ghostforbeginners.com.com">Ghost for Beginners</a>. <a href="http://ghostforbeginners.com">Ghost for Beginners</a> will guide you through the process of how to log in and create your first post, all the way to how to choose and customize your Ghost theme. It is a great resource for anyone who is looking for help when starting to use Ghost.<br><br>
+
+        If you are a little bit more experienced with Ghost, we have an ongoing blog called <a href="http://allaboutghost.com">All About Ghost</a> that covers a wide range of higher level topics. While <a href="http://allaboutghost.com">All About Ghost</a> is a little bit more developer focused, there are great resources for anyone to use.<br><br>
+
+        One of the first things most people do after creating a new website is try and make it look good. There are many different places to find Ghost themes and many people will not know where to find all of them. Because of this, we created <a href="http://allghostthemes.com">All Ghost Themes</a>. <a href="http://allghostthemes.com">All Ghost Themes</a> is a list of every Ghost theme out there. We update this site constantly to add in all the new themes and make it easy and fast for you to find Ghost themes.<br><br>
+
+        Thank you for taking the time to check out our site(s)! If you have any questions or need any help, feel free to contact us on twitter (<a href="http://twitter.com/howtoghost">@howtoghost</a>), email (info@howtoinstallghost.com), or on the <a href="https://github.com/tryghost/Ghost#community">Ghost IRC</a> (davidbalderston and andyboutte). We would love to help you out in anyway that we can. Happy Ghosting!
+    </div>
+</main>
