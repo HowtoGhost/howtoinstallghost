@@ -47,7 +47,7 @@ html, body {
 
 #twitter-menu, #facebook-menu {height:50px;}
 #twitter-menu a, #facebook-menu a {padding-top:13px;padding-bottom:13px;padding-right:7.5px;padding-left:7.5px;}
-#twitter-menu a img, #facebook-menu a img {width:30px;}
+#twitter-menu a img, #facebook-menu a img {width:30px;height:24px;}
 
 .arrow-down-1 {
 	width: 0; 
