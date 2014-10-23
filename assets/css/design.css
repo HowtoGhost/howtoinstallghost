@@ -46,7 +46,7 @@ html, body {
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {color:white;}
 
 #twitter-menu, #facebook-menu {height:50px;}
-#twitter-menu a, #facebook-menu a {padding-top:13px;padding-bottom:13px;padding-right:0;}
+#twitter-menu a, #facebook-menu a {padding-top:13px;padding-bottom:13px;padding-right:7.5px;padding-left:7.5px;}
 #twitter-menu a img, #facebook-menu a img {width:30px;}
 
 .arrow-down-1 {
