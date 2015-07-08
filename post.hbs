@@ -4,14 +4,12 @@
     the {body} of the default.hbs template, which contains our header/footer. }}
 
 <main class="content" role="main">
-    <div class="wrapper">
-        <div id="content" class="col-md-9">
+    <div class="wrapper flex-wrapper">
+        <div id="content" class="flex-content">
             <article class="{{post_class}}">
                 {{#post}}
                 <div class="wrapper">
                     <h1 class="post-title">{{{title}}}</h1>
-                    <hr class="post-title-hr">
-
                     <div class="post-content">
                         {{content}}
                     </div>

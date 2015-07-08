@@ -1,6 +1,11 @@
 /*
  * Post Styles
  */
+
+.post-content {
+ 	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+ 	line-height: 1.4em;
+}
 .post-content p img {
 	width: 70%;
 	margin: auto;
@@ -93,10 +98,28 @@
 	color: white;
 }
 .post-next-img {
-	width:auto;
+	width: auto;
 
 	img {
 		width: 40px;
 		float: right;
+	}
+}
+
+.next-steps {
+	margin-top: 35px;
+	border: 1px solid #494949;
+	padding: 10px;
+	line-height: 1.4em;
+
+	a {
+		color: #428bca;
+		text-decoration: none;
+	}
+
+	h3 {
+		margin-top: 0;
+		margin-bottom: 10px;
+		font-size: 2.5rem;
 	}
 }
