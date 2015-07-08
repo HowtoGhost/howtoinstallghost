@@ -1,0 +1,6 @@
+{
+  "name": "How to Install Ghost",
+  "dependencies": {
+    "jquery": "latest"
+  }
+}
