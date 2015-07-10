@@ -5,3 +5,67 @@
 .page-title {
 	margin: 25px 0 50px 0;
 }
+
+.sections {
+	text-align: center;
+}
+
+.section-posts {
+	text-align: left; 
+	width: 50%; 
+	margin: auto;
+	color: white;
+	margin-bottom: 50px;
+}
+
+.section-post {
+	padding: 10px 0 10px 10px; 
+	position: relative;
+	color: white;
+	background-color: #5E5E5E;
+	margin-top: 5px;
+}
+.section-post-header {
+	font-weight: 400; 
+	font-size: 20px;
+}
+.section-post:hover {
+	background-color: #2f8cde;
+    -webkit-transition: background-color 100ms linear;
+    -moz-transition: background-color 100ms linear;
+    -o-transition: background-color 100ms linear;
+    -ms-transition: background-color 100ms linear;
+    transition: background-color 100ms linear;
+}
+
+.section-posts a:hover {
+	text-decoration: none;
+}
+
+/*.section-post img {position:absolute; right:1em; top:2.25em;}*/
+.section-post-paragraph {
+	margin-right: 10px;
+	font-weight: 300;
+}
+
+.section-post-inside {
+	padding: 0;
+	border-top: 0;
+	width: 90%;
+	background-color: inherit;
+	color: white;
+}
+
+.section-post-image {
+	height: 100%;
+	background-color: inherit;
+}
+
+.section-post-image img {
+	width: 60px;
+	max-width: none;
+}
+
+.section-table {
+	margin: 0;
+}
